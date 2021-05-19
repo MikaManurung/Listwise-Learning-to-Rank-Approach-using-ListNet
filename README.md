@@ -1,5 +1,4 @@
 # Pairwise Learning to Rank Approach Using Light Gradient Boosting Machine (LightGBM)
-_Learning to Rank_ adalah bagian dari penerapan machine learning dalam pembangunan model perankingan pada sistem temu balik informasi. Salah satu pendekatan untuk membangun model _Learning to Rank_ yaitu _pairwise approach_ dimana pasangan dokumen dianggap sebagai input untuk sistem pembelajaran dan untuk meningkatkan kinerja model yang akan dibangun diterapkan algoritma _gradient tree boosting_. Salah satu implementasi _gradient tree boosting_ terbaik yang tersedia saat ini adalah XGBoost (_eXtreme Gradient Boosting_).
 
 Learning to Rank (LTR) untuk Information Retrieval (IR) adalah sebuah tugas dalam pembangunan model pemeringkatan menggunakan data pelatihan, sehingga model tersebut dapat mengurutkan objek baru sesuai dengan relevansi, preferensi, atau kepentingannya [1]Tie-Yan Liu (2009).  Salah satu pendekatan untuk membangun model _Learning to Rank_ yaitu _pairwise approach_ . _Pairwise approach_ mengambil pasangan dokumen sebagai contoh untuk pelatihan, dan menyusunnya ke LTR sebagai klasifikasi. Terdapat keuntungan pendekatan pairwise yaitu metodologi yang ada pada klasifikasi dapat diterapkan secara langsung dan contoh pelatihan pasangan dokumen dapat dengan mudah diperoleh dalam skenario tertentu[2](Joachims, 2002). 
 
@@ -31,6 +30,7 @@ learning_rate: 0.1
 ...
 ```
 
+### Hasil
 
 Rata - rata skor NDCG kelima Fold : 
 
