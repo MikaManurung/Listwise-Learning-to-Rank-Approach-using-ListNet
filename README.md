@@ -44,7 +44,8 @@ early stopping rounds : 50
 |  5  | 0.630573	  | 0.681832    | 0.702157    | 0.766917    | 
 |  Rata-rata | 0.662012	  | 0.6966848    | 0.7324584    | 0.7780482    | 
 
-Rata - rata skor NDCG tertinggi yaitu pada NDCG@10 : 0.7780482
+Rata - rata skor NDCG tertinggi yaitu pada NDCG@10 : 0.7780482.
+
 Rata-rata dari  NDCG@1, NDCG@3, NDCG@5 dan NDCG@10  kemudian dijumlahkan dan dicari lagi rata-ratanya sehingga diperoleh skor NDCG keseluruhan dari kelima fold yaitu 
 sebesar 0.717301.
 
